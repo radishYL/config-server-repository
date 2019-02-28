@@ -1,0 +1,16 @@
+spring:
+     profiles: dev
+
+server:
+  port: 3355
+eureka:
+  instance:
+    hostname: configclient.com
+    instance-id: config-client-${server.port}
+    prefer-ip-address: true
+    
+info:
+  app.name: config-server
+  app.port: ${server.port}
+  app.author: alex
+  app.since: 2019-02-28
