@@ -10,7 +10,7 @@ eureka:
     prefer-ip-address: true
     
 info:
-  app.name: config-server
+  app.name: config-client
   app.port: ${server.port}
   app.author: alex
   app.since: 2019-02-28
