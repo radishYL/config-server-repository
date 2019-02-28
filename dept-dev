@@ -1,0 +1,13 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+  instance:
+    hostname: configserver.com
+    instance-id: config-server-3344
+    prefer-ip-address: true
+info:
+  app.name: config-server
+  app.port: 3344
+  app.author: alex
+  app.since: 2019-02-26
